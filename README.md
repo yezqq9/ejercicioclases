@@ -1,2 +1,2 @@
-# ejercicioclases
-Ejercicios propuestos
+
+Ejercicios propuestos en clases
