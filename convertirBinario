@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main{
+
+ public static String convertirBinario(int n){
+       
+
+String B = String.valueOf(n%2);
+
+
+while(n/2>0){
+   n=n/2;
+   B=(n%2)+B;
+}
+    return B;
+   }
+   
+public static void main(String[] args){
+       Scanner sc=new Scanner(System.in);
+   
+
+    System.out.println("Ingrese un numero");
+   int n=sc.nextInt();
+    
+    
+    System.out.println("Su numero en binario es: "+convertirBinario(n));
+    
+    
+    
+}
+}
