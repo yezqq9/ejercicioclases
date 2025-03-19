@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+//Ejercicio2Ay1: Invertir cadena de texto
+
+public class Main{
+    
+public static void KKK(){
+        
+Scanner sc=new Scanner(System.in);
+        
+System.out.println("Ingrese una palabra: ");
+String palabra=sc.nextLine();
+
+
+int largo=palabra.length()-1;
+
+
+
+for(int i=largo;i>=0; i--){
+    System.out.print(palabra.charAt(i));
+}
+}
+	public static void main(String[] args) {
+		KKK();
+	}
+}
