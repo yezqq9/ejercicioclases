@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+//Ejercicio 1: Invencible vs Omni-Man ayudantia EDA
+
+public class Main{
+    public static void KKK(){
+        Scanner sc=new Scanner(System.in);
+        
+        
+        
+        System.out.println("Ingrese un numero: ");
+        int x=sc.nextInt();
+        
+        System.out.println("Ingrese un segundo numero: ");
+        int y=sc.nextInt();
+        
+        if(x<y){
+            for(int i=x+1;i<y;i++){
+                if(i%5==0 && i%3==0)
+                     System.out.println(i+" se remplaza por Invencible vs Omni-man");
+                else if(i%3==0){
+                    System.out.println(i+" se remplaza por Invencible");
+                    }else if(i%5==0){
+                        System.out.println(i+" se remplaza por Omni-man"); 
+                    }
+               else{ System.out.println(+i);
+            }}
+        }
+    
+        
+        
+    }
+    public static void main(String[] args) {
+		KKK();
+}
+}
